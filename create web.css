@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+/* Apply Oswald font to the entire page */
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Example usage for headings */
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+/* Example usage for paragraphs */
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
