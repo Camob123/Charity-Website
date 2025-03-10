@@ -42,3 +42,9 @@ p {
   background-color: #04aa6d;
   color: white;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
