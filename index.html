@@ -3,20 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Charity Website</title>
-        <link rel="stylesheet" href="./style.css">
+        <title>Charity Website - Home</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
     </head>
     <body>
-        <main>
-            <div class="topnav">
-            <ul>
-              <li><a class="active" href="#home">Home</a></li>
-              <li><a href="#news">News</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#about">About</a></li>
-            </ul>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="/placeholder.svg?height=80&width=80" alt="Logo">
+                    <h1>My Charity Website</h1>
+                </div>
+                <nav>
+                    <button class="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="dates-fees.html">Dates & Fees</a></li>
+                        <li><a href="games.html">Educational Games</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </nav>
             </div>
-        </main>
-        <script src="index.js"></script>
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Welcome to the Charity Website</h2>
+                    <p>Uniting and empowering the Slovak community in South Manchester and surrounding areas.</p>
+                <div class="hero-buttons">
+                    <a href="membership.html" class="btn btn-primary">Join Our Community</a>
+                    <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                    
     </body>
 </html>
