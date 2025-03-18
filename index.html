@@ -1,50 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Charity Website - Home</title>
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <script src="js/script.js" defer></script>
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slovak Community Manchester - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Slovak Community Manchester Logo">
+                <h1>Slovak Community Manchester</h1>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="dates-fees.html">Dates & Fees</a></li>
+                    <li><a href="games.html">Educational Games</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
             <div class="container">
-                <div class="logo">
-                    <img src="/placeholder.svg?height=80&width=80" alt="Logo">
-                    <h1>My Charity Website</h1>
+                <div class="hero-content">
+                    <h2>Uniting and Empowering the Slovak Community</h2>
+                    <p>Preserving our cultural heritage in South Manchester and surrounding areas</p>
+                    <div class="hero-buttons">
+                        <a href="membership.html" class="btn btn-primary">Join Our Community</a>
+                        <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+                    </div>
                 </div>
-                <nav>
-                    <button class="mobile-menu-btn" aria-label="Toggle menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <ul class="nav-menu">
-                        <li><a href="index.html" class="active">Home</a></li>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">What We Offer</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="images/education-icon.svg" alt="Education Icon">
+                        </div>
+                        <h3>Education</h3>
+                        <p>Language classes and cultural education for children and adults</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="images/events-icon.svg" alt="Events Icon">
+                        </div>
+                        <h3>Cultural Events</h3>
+                        <p>Traditional celebrations, festivals, and community gatherings</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="images/community-icon.svg" alt="Community Icon">
+                        </div>
+                        <h3>Community Support</h3>
+                        <p>Resources and assistance for Slovak families in Manchester</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="upcoming-events">
+            <div class="container">
+                <h2 class="section-title">Upcoming Events</h2>
+                <div class="events-preview">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Summer Festival</h3>
+                            <p class="event-location">Wythenshawe Park, Manchester</p>
+                            <p>Celebrate Slovak traditions with food, music, and dance</p>
+                            <a href="events.html#summer-festival" class="btn btn-small">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">Jul</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Language Workshop</h3>
+                            <p class="event-location">Community Center, Didsbury</p>
+                            <p>Beginner-friendly Slovak language class for all ages</p>
+                            <a href="events.html#language-workshop" class="btn btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <a href="events.html" class="btn btn-outline">View All Events</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Community Voices</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p>"The Slovak Community has helped my children connect with their heritage and make friends with other Slovak families."</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.svg" alt="Testimonial Author">
+                            <span>Martina K.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"I've learned so much about Slovak culture and improved my language skills through the community's workshops."</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.svg" alt="Testimonial Author">
+                            <span>Thomas B.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <button class="prev" aria-label="Previous testimonial">❮</button>
+                        <button class="next" aria-label="Next testimonial">❯</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Join Our Community Today</h2>
+                    <p>Become a member and help us preserve Slovak traditions in Manchester</p>
+                    <a href="membership.html" class="btn btn-primary">Sign Up Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.jpg" alt="Slovak Community Manchester Logo">
+                    <h2>Slovak Community Manchester</h2>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="membership.html">Membership</a></li>
                         <li><a href="dates-fees.html">Dates & Fees</a></li>
                         <li><a href="games.html">Educational Games</a></li>
                         <li><a href="events.html">Events</a></li>
                     </ul>
-                </nav>
-            </div>
-        </header>
-
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h2>Welcome to the Charity Website</h2>
-                    <p>Uniting and empowering the Slovak community in South Manchester and surrounding areas.</p>
-                <div class="hero-buttons">
-                    <a href="membership.html" class="btn btn-primary">Join Our Community</a>
-                    <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><strong>Email:</strong> info@slovakcommunitymanchester.org</p>
+                    <p><strong>Phone:</strong> 0161 123 4567</p>
+                    <p><strong>Address:</strong> Community Center, 123 Main St, Manchester, M1 2AB</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                        <a href="#" aria-label="Instagram"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+                        <a href="#" aria-label="Twitter"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+                    </div>
                 </div>
             </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Slovak Community Manchester. All rights reserved.</p>
+            </div>
         </div>
-    </section>
+    </footer>
 
-                    
-    </body>
+    <script src="js/main.js"></script>
+</body>
 </html>
