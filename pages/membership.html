@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Slovak Community Manchester</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Slovak Community Manchester Logo">
+                <h1>Slovak Community Manchester</h1>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="membership.html"class="active">Membership</a></li>
+                    <li><a href="dates-fees.html">Dates & Fees</a></li>
+                    <li><a href="games.html">Educational Games</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Membership</h2>
+                <p>Join our community and enjoy exclusive benefits and events</p>
+            </div>
+        </section>
+
+        <section class="membership-benefits">
+            <div class="container">
+                <h2 class="section-title">Membership Benefits</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <img src="images/events-icon.svg" alt="Events Icon">
+                        </div>
+                        <h3>Exclusive Events</h3>
+                        <p>Access to members-only events and priority booking for all activities</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <img src="images/discount-icon.svg" alt="Discount Icon">
+                        </div>
+                        <h3>Discounted Rates</h3>
+                        <p>Reduced fees for workshops, language classes, and cultural activities</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <img src="images/newsletter-icon.svg" alt="Newsletter Icon">
+                        </div>
+                        <h3>Monthly Newsletter</h3>
+                        <p>Stay updated with community news and upcoming events</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <img src="images/community-icon.svg" alt="Community Icon">
+                        </div>
+                        <h3>Community Network</h3>
+                        <p>Connect with other Slovak families and individuals in Manchester</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="membership-types">
+            <div class="container">
+                <h2 class="section-title">Membership Options</h2>
+                <div class="membership-cards">
+                    <div class="membership-card">
+                        <div class="membership-header">
+                            <h3>Individual</h3>
+                            <p class="price">£30<span>/year</span></p>
+                        </div>
+                        <div class="membership-features">
+                            <ul>
+                                <li>Access to all community events</li>
+                                <li>Discounted workshop rates</li>
+                                <li>Monthly newsletter</li>
+                                <li>Voting rights at annual meetings</li>
+                            </ul>
+                        </div>
+                        <div class="membership-action">
+                            <a href="#registration-form" class="btn btn-primary">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="membership-card featured">
+                        <div class="membership-header">
+                            <h3>Family</h3>
+                            <p class="price">£50<span>/year</span></p>
+                        </div>
+                        <div class="membership-features">
+                            <ul>
+                                <li>Covers 2 adults and up to 3 children</li>
+                                <li>Access to all community events</li>
+                                <li>Discounted workshop rates</li>
+                                <li>Monthly newsletter</li>
+                                <li>Voting rights at annual meetings</li>
+                                <li>Priority registration for children's activities</li>
+                            </ul>
+                        </div>
+                        <div class="membership-action">
+                            <a href="#registration-form" class="btn btn-primary">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="membership-card">
+                        <div class="membership-header">
+                            <h3>Student/Senior</h3>
+                            <p class="price">£20<span>/year</span></p>
+                        </div>
+                        <div class="membership-features">
+                            <ul>
+                                <li>Valid student ID or age 65+</li>
+                                <li>Access to all community events</li>
+                                <li>Discounted workshop rates</li>
+                                <li>Monthly newsletter</li>
+                                <li>Voting rights at annual meetings</li>
+                            </ul>
+                        </div>
+                        <div class="membership-action">
+                            <a href="#registration-form" class="btn btn-primary">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="registration-form" id="registration-form">
+            <div class="container">
+                <h2 class="section-title">Membership Registration</h2>
+                <form id="membershipForm" class="form">
+                    <div class="form-section">
+                        <h3>Personal Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" name="dob">
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Address</h3>
+                        <div class="form-group">
+                            <label for="address1">Address Line 1 *</label>
+                            <input type="text" id="address1" name="address1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address2">Address Line 2</label>
+                            <input type="text" id="address2" name="address2">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City *</label>
+                                <input type="text" id="city" name="city" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="postcode">Postcode *</label>
+                                <input type="text" id="postcode" name="postcode" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Membership Details</h3>
+                        <div class="form-group">
+                            <label for="membershipType">Membership Type *</label>
+                            <select id="membershipType" name="membershipType" required>
+                                <option value="">Select Membership Type</option>
+                                <option value="individual">Individual (£30/year)</option>
+                                <option value="family">Family (£50/year)</option>
+                                <option value="student">Student/Senior (£20/year)</option>
+                            </select>
+                        </div>
+                        <div class="form-group family-members" id="familyMembersSection" style="display: none;">
+                            <label>Family Members</label>
+                            <div class="family-member-inputs">
+                                <div class="family-member">
+                                    <input type="text" name="familyMember1" placeholder="Family Member 1 (Name & Age)">
+                                </div>
+                                <div class="family-member">
+                                    <input type="text" name="familyMember2" placeholder="Family Member 2 (Name & Age)">
+                                </div>
+                                <button type="button" class="btn btn-small" id="addFamilyMember">+ Add More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Social Media (Optional)</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="facebook">Facebook</label>
+                                <input type="text" id="facebook" name="facebook" placeholder="Facebook profile URL">
+                            </div>
+                            <div class="form-group">
+                                <label for="instagram">Instagram</label>
+                                <input type="text" id="instagram" name="instagram" placeholder="Instagram handle">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Additional Information</h3>
+                        <div class="form-group">
+                            <label for="interests">Interests</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="language"> Language Classes
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="culture"> Cultural Events
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="cooking"> Slovak Cooking
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="dance"> Traditional Dance
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="music"> Folk Music
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="history"> Slovak History
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="howHeard">How did you hear about us?</label>
+                            <select id="howHeard" name="howHeard">
+                                <option value="">Select an option</option>
+                                <option value="friend">Friend or Family</option>
+                                <option value="event">Community Event</option>
+                                <option value="social">Social Media</option>
+                                <option value="search">Search Engine</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Additional Comments</label>
+                            <textarea id="comments" name="comments" rows="4"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="form-group">
+                            <label class="checkbox">
+                                <input type="checkbox" name="terms" required>
+                                I agree to the <a href="#" class="text-link">Terms and Conditions</a> and <a href="#" class="text-link">Privacy Policy</a> *
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox">
+                                <input type="checkbox" name="newsletter">
+                                I would like to receive the monthly newsletter
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit Registration</button>
+                        <button type="reset" class="btn btn-secondary">Reset Form</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.jpg" alt="Slovak Community Manchester Logo">
+                    <h2>Slovak Community Manchester</h2>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="dates-fees.html">Dates & Fees</a></li>
+                        <li><a href="games.html">Educational Games</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><strong>Email:</strong> info@slovakcommunitymanchester.org</p>
+                    <p><strong>Phone:</strong> 0161 123 4567</p>
+                    <p><strong>Address:</strong> Community Center, 123 Main St, Manchester, M1 2AB</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                        <a href="#" aria-label="Instagram"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+                        <a href="#" aria-label="Twitter"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Slovak Community Manchester. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
