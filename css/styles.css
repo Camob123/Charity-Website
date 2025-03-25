@@ -1,4 +1,3 @@
-/* Global Styles */
 :root {
   --primary-color: #1e5b94;
   --primary-dark: #0d4a7f;
@@ -16,7 +15,7 @@
   --warning-color: #f39c12;
   --info-color: #3498db;
   
-  /* Slovak flag colors */
+
   --slovak-blue: #0b4ea2;
   --slovak-red: #ee1c25;
   --slovak-white: #ffffff;
