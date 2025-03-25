@@ -1513,7 +1513,7 @@ textarea:focus {
 
 .memory-card.flipped {
   transform: rotateY(360deg);
-  background-color: grey;
+  background-color: rgb(186, 202, 255);
 }
 
 .game-controls {
