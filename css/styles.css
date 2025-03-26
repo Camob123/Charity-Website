@@ -496,7 +496,6 @@ footer {
   background-color: var(--text-dark);
   color: white;
   padding: 4rem 0 2rem;
-  padding-top: 10px;
 }
 
 .footer-content {
@@ -1393,6 +1392,7 @@ textarea:focus {
 
 .fees-note {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 /* Games Page Styles */
